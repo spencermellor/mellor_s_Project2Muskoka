@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.headNav {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #05386B;
+}
+
+.headNav img {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 40%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  background: rgb(237,245,225); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(237,245,225,1) 0%, rgba(255,255,255,1) 46%, rgba(255,255,255,1) 46%, rgba(237,245,225,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(237,245,225,1) 0%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 46%,rgba(237,245,225,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(237,245,225,1) 0%,rgba(255,255,255,1) 46%,rgba(255,255,255,1) 46%,rgba(237,245,225,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edf5e1', endColorstr='#edf5e1',GradientType=0 ); /* IE6-9 */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  padding: 10px;
+  font-size: 30px;
+  color: #05386B;
+}
+
+.letterSpace {
+  letter-spacing: 0.5em;
+}
+
+.noPad {
+  padding: -10px;
+  margin-bottom: -20px;
+  font-size: 24px;
+}
+
+h2::first-letter {
+  font-size: 120%;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 18px;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  line-height: normal;
+  padding: 10px;
+}
+
+hr {
+  width: 75%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+#bold {
+  font-weight: 700;
+}
+
+.ourBeers {
+
+}
+
+.ourBeers p {
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.spaceEven {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#space {
+  margin-top: 40px;
+}
+
+.imgDes {
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+.about {
+  display: inline;
+  flex-wrap: wrap;
+}
+
+#big {
+  font-size: 35px;
+}
+
+#small {
+  font-size: 24px;
+}
